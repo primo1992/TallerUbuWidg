@@ -54,4 +54,14 @@ public class MainActivity extends AppCompatActivity {
     public void onradio(View view) {
         Toast.makeText(this, "Bienvenido a Android", Toast.LENGTH_LONG).show();
     }
+
+    public void darclick (View view){
+        Toast.makeText(this, "Ingreso confirmado", Toast.LENGTH_SHORT).show();
+    }
+
+
+
+
+
+
 }

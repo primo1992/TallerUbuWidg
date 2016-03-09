@@ -67,4 +67,13 @@
         android:id="@+id/calendarView"
         android:layout_below="@+id/imageView"
         android:layout_alignEnd="@+id/imageView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        android:id="@+id/buttonConfi"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:onClick="darclick" />
 </RelativeLayout>
